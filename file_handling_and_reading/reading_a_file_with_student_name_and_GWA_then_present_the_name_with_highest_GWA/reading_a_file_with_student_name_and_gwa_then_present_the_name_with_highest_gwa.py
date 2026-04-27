@@ -11,7 +11,6 @@ def show_highest_gwa(data: list):
     except ValueError:
         print("Error: A GWA value in your file is not a valid number.")
 
-
 class HighestGwa:
     def __init__(self, filename: str = "gwa.txt"):
         self.filename = filename
@@ -20,7 +19,6 @@ class HighestGwa:
         with open(self.filename, "r") as file:
             content = [line.strip("\n") for line in file.readlines()]
         return content
-
 
 if __name__ == "__main__":
     gwa = HighestGwa()
