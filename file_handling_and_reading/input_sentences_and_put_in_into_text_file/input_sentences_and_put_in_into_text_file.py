@@ -6,12 +6,13 @@ class InputMultipleLines:
         try:
             with open(self.filename, "a") as file:
                 while True:
-                    line = input("Enter a line: ")
+                    sentence = input("Enter a line: ")
                     more_lines = input("Are there any more lines (y/n)? ").lower()
-                    file.write(f"{text}\n")
+                    file.write(f"{sentence}\n")
                     if more_lines != "y":
                         break
         except FileNotFoundError:
             print("File not found.")
-        except:
-            print("Error in writing the file.")
+
+if __name__ == "__main__":
+    InputMultipleLines().input_lines()
