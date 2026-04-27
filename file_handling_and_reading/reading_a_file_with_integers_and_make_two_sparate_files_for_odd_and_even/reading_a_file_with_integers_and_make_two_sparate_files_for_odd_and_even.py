@@ -20,3 +20,4 @@ class EvenOddSeparator:
             else:
                 self.file_write(odd.txt, number)
 
+
