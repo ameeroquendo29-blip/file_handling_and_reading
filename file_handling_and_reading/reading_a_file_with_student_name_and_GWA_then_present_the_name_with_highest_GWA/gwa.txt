@@ -1,20 +1,20 @@
-Ameer Oquendo,87
-Rainiel Jerez,95
-Jhullian Chica,89
-Eugene Manalo,94
-Michael Apale,99
-Tristan Pacupac,91
-Doluel Babaran,88
-Jehoshua Quibal,94
-Alucard Padilla,93
-Floryn Agas,89
-Yael Nadonga,94
-Angelina Petallar,98
-Gela Laceda,93
-Sheika Tumaguidguid,92
-Merma Mustafa,85
-Faisal Garcia,82
-Leejay Lutua,86
-Janica Sandag,90
-Lanzeta Minuya,93
-Jeyk Boya,81
+Ameer Oquendo, 87.0
+Rainiel Jerez, 95.0
+Jhullian Chica, 89.0
+Eugene Manalo, 94.0
+Michael Apale, 99.0
+Tristan Pacupac, 91.0
+Doluel Babaran, 88.0
+Jehoshua Quibal, 94.0
+Alucard Padilla, 93.0
+Floryn Agas, 89.0
+Yael Nadonga, 94.0
+Angelina Petallar, 98.0
+Gela Laceda, 93.0
+Sheika Tumaguidguid, 92.0
+Merma Mustafa, 85.0
+Faisal Garcia, 82.0
+Leejay Lutua, 86.0
+Janica Sandag, 90.0
+Lanzeta Minuya, 93.0
+Jeyk Boya, 81.0
