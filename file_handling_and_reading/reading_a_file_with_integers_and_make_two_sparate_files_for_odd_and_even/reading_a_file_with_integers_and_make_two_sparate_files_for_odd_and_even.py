@@ -8,3 +8,7 @@ class EvenOddSeparator:
                 numbers = [int(number.rstrip("\n")) for number in file.readlines()
             return numbers
 
+    def file_write(self, filename: str, content: int):
+        with open(filename, "a") as file:
+            file.write(f"{content}\n")
+
