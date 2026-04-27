@@ -8,6 +8,11 @@ class EvenOddSeparator:
                 numbers = [int(number.rstrip("\n")) for number in file.readlines()
             return numbers
 
+        except FileNotFoundError:
+            print(f"File {self.filename} doesn't exist")
+        except:
+            print("Make sure the file only contains integers")
+
     def file_write(self, filename: str, content: int):
         with open(filename, "a") as file:
             file.write(f"{content}\n")
@@ -20,4 +25,7 @@ class EvenOddSeparator:
             else:
                 self.file_write(odd.txt, number)
 
+if __name__ == "__main__":
+    separator = EvenOddSeparator()
+    separator.categorize()
 
