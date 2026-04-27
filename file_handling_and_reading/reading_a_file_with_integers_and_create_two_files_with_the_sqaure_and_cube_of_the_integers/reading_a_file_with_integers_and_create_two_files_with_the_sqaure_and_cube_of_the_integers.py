@@ -14,4 +14,13 @@ class SquareCubeOfTheIntegers:
                     double_file.write(f"{num ** 2}\n")
                     triple_file.write(f"{num ** 3}\n")
             print("Processing complete. Check double.txt and triple.txt.")
+        except FileNotFoundError:
+            print(f"Error: The source file '{self.filename}' was not found.")
+        except ValueError:
+            print("Error: The file contains non-integer data. Please clean 'integers.txt'.")
+        except PermissionError:
+            print("Error: Permission denied. Close the files if they are open in another program.")
+        except Exception as e:
+            print(f"An unexpected error occurred: {e}")
+
 
