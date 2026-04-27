@@ -22,5 +22,15 @@ class SquareCubeOfTheIntegers:
             print("Error: Permission denied. Close the files if they are open in another program.")
         except Exception as e:
             print(f"An unexpected error occurred: {e}")
-
+        except FileNotFoundError:
+            print(f"Error: The source file '{self.filename}' was not found.")
+        except ValueError:
+            print("Error: The file contains non-integer data. Please clean 'integers.txt'.")
+        except PermissionError:
+            print("Error: Permission denied. Close the files if they are open in another program.")
+        except Exception as e:
+            print(f"An unexpected error occurred: {e}")
+if __name__ == "__main__":
+    processor = SquareCubeOfTheIntegers()
+    processor.process_numbers()
 
