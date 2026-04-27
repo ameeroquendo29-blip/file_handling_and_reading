@@ -12,3 +12,11 @@ class EvenOddSeparator:
         with open(filename, "a") as file:
             file.write(f"{content}\n")
 
+    def categorize(self):
+        data = self.file_read()
+        for number in data:
+            if number % 2 == 0:
+                self.file_write(even.txt, number)
+            else:
+                self.file_write(odd.txt, number)
+
